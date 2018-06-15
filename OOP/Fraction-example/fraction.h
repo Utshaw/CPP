@@ -15,6 +15,7 @@ class Fraction{
         void setnum(int newnum);
         void setdenom(int newden);
         double getValue();
+        Fraction& operator+(Fraction& rhs);
 };
 
 #endif

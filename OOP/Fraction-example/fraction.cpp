@@ -20,7 +20,7 @@ int Fraction::getdenom()
 
 double Fraction::getValue()
 {
-    return numer * denom;
+    return numer / (double)denom;
 }
 
 void Fraction::setnum(int newnum)
@@ -31,4 +31,14 @@ void Fraction::setnum(int newnum)
 void Fraction::setdenom(int den)
 {
     denom=den;
+}
+
+
+Fraction& Fraction:: operator+(Fraction& rhs)
+{
+    int commondenom = this->getdenom() * rhs.getdenom();
+    int newnumer = this->getnumer() * rhs.getdenom() + this->getdenom() * rhs.getnumer();
+    Fraction *sum = new Fraction(newnumer, commondenom);
+    return *sum;
+
 }
