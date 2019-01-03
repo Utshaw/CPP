@@ -5,24 +5,23 @@ using namespace std;
 
 #define endl '\n'
 
-typedef int marks;
-
-enum day {sat, sun };
 
 int main() {
-    day d1;
-    d1 = sat;
+    
+    
+    int n ;
 
-    switch(d1) {
-        case sat:
-            cout << "Saturday" << endl;
-            break;
-        case sun:
-            cout << "Sunday" << endl;
-            break;
+    cin >> n;
+
+    int* fact = new int[n + 1];
+    fact[0] = 1;
+
+    for(int i = 1; i <= 10; i++){
+        fact[i] = fact[i - 1] * i;
     }
 
+    cout << fact[n] << endl;
 
-
+    delete[] fact;
     return 0;
 }
