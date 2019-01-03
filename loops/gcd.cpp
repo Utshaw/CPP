@@ -12,6 +12,7 @@ int getGCD(int a, int b)
     int big, small;
     if (a == b)
         return b;
+
     if (a > b)
     {
         big = a;
@@ -22,6 +23,8 @@ int getGCD(int a, int b)
         big = b;
         small = a;
     }
+    if (!(big % small))
+        return small;
 
     while (1)
     {
@@ -48,7 +51,7 @@ int getGCD(int a, int b)
 int main()
 {
 
-    cout << getGCD(21, 30) << endl;
+    cout << getGCD(9, 21) << endl;
 
     return 0;
 }
