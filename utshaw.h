@@ -18,7 +18,7 @@ void debugPrint(int a, int b){
 void debugHalt(){
     cin.clear(); // clears the input que
     cin.get(); // waits for an input.
-    std::cin.flush();
+    
     
 }
 
