@@ -14,5 +14,9 @@ reverse_num.o: reverse_num.cpp
 	$(CC) $(CFLAGS) reverse_num.cpp -o one && ./one
 gcd.o: gcd.cpp
 	$(CC) $(CFLAGS) gcd.cpp -o one && ./one
+triangle-left-1.o: triangle-left-1.cpp
+	$(CC) $(CFLAGS) triangle-left-1.cpp -o one && ./one
+triangle-down-1.o: triangle-down-1.cpp
+	$(CC) $(CFLAGS) triangle-down-1.cpp -o one && ./one
 clear:
 	rm -rf one *.o
