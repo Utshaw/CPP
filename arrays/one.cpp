@@ -13,6 +13,8 @@ int main() {
         cout << t << endl;
     }
 
+    cout << "Sizeof array: " << sizeof(A) / sizeof(A[0]) << endl;
+
 
     return 0;
 }
