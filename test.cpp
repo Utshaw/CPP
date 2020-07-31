@@ -9,19 +9,6 @@ using namespace std;
 int main() {
     
     
-    int n ;
-
-    cin >> n;
-
-    int* fact = new int[n + 1];
-    fact[0] = 1;
-
-    for(int i = 1; i <= 10; i++){
-        fact[i] = fact[i - 1] * i;
-    }
-
-    cout << fact[n] << endl;
-
-    delete[] fact;
+    printf("this is some");
     return 0;
 }
