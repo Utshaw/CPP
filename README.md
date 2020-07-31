@@ -19,7 +19,14 @@
 - facilitates cross platform builds
 - Tutorial: https://cmake.org/cmake-tutorial/
 
-## 
+# Debugger
+- Allows you to pause the execution of code in varios locations, inspect the state of the program, and step throguh your code line by line 
+- GDB, LLB are open source debugger for C++
+
+# C++ main()
+- When the program is run main function is executed automatically , main() should return an integer
+
+
 # Namespace
 - All standard library functions, classes exist in std:: namespace, std::vector refer to verctor class 
 ## Tutorial currently following

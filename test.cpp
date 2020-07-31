@@ -5,9 +5,8 @@ using namespace std;
 
 #define endl '\n'
 
-
-int main() {
-    
+int main()
+{
     
     printf("this is some");
     return 0;
