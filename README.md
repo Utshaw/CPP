@@ -3,6 +3,8 @@
 - Doesn't have any official compiler
 ## GNU Compiler Collection (GCC)
 - g++ program compiles C++ source code and automatically links the C++ standard library
+- In order to use those classes and functions from the C++ standard library the compiler must have access to the compiled version of the standard library stored in object files
+
 # Namespace
 - All standard library functions, classes exist in std:: namespace, std::vector refer to verctor class 
 ## Tutorial currently following
