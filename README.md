@@ -53,6 +53,12 @@ long distance = 1568L;// long
 ```
 float price = 12.5F;
 ````
+
+## Double literals
+```
+double cost = 125.5L; // long double literal
+````
+
 ## Tutorial currently following
 
 - Learn C++ Programming -Beginner to Advance- Deep Dive in C++<br>
