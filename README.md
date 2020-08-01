@@ -52,13 +52,18 @@ long distance = 1568L;// long
 ## Float literals
 ```
 float price = 12.5F;
-````
+```
 
 ## Double literals
 ```
 double cost = 125.5L; // long double literal
 double someVar = 25.5; // by default it's double
-````
+```
+
+## char literals
+```
+char section = 65;
+```
 
 ## Tutorial currently following
 
