@@ -40,6 +40,14 @@ cout << sizeof(x) << endl; // size of char in bytes
 cout << CHAR_MAX << " " << CHAR_MIN << endl; //  #include <climits>
 
 ```
+
+# Literals
+## Integer literals
+```
+int a = 10; // decimal number
+int b = 010; // octal
+int c = 0x10; // Hexadecimal
+```
 ## Tutorial currently following
 
 - Learn C++ Programming -Beginner to Advance- Deep Dive in C++<br>
