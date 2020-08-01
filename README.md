@@ -49,6 +49,10 @@ int b = 010; // octal
 int c = 0x10; // Hexadecimal
 long distance = 1568L;// long 
 ```
+## Float literals
+```
+float price = 12.5F;
+````
 ## Tutorial currently following
 
 - Learn C++ Programming -Beginner to Advance- Deep Dive in C++<br>
