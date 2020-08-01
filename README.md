@@ -57,6 +57,7 @@ float price = 12.5F;
 ## Double literals
 ```
 double cost = 125.5L; // long double literal
+double someVar = 25.5; // by default it's double
 ````
 
 ## Tutorial currently following
