@@ -47,6 +47,7 @@ cout << CHAR_MAX << " " << CHAR_MIN << endl; //  #include <climits>
 int a = 10; // decimal number
 int b = 010; // octal
 int c = 0x10; // Hexadecimal
+long distance = 1568L;// long 
 ```
 ## Tutorial currently following
 
