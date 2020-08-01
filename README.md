@@ -104,7 +104,8 @@ for(int element: arr) {
 ```
 # Array
 ```
-int A[5] = {0}; // all of the 5 items will be 0
+int A[5] = {0};   // 0,0,0,0,0
+int B[5] = {3,4}; // 3,4,0,0,0
 ```
 
 ## Tutorial currently following
