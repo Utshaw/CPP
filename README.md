@@ -29,6 +29,17 @@
 
 # Namespace
 - All standard library functions, classes exist in std:: namespace, std::vector refer to verctor class 
+
+## Size of data types
+```
+char x;
+int a;
+cout << sizeof(a) << endl; // size of int in bytes
+cout << sizeof(x) << endl; // size of char in bytes
+
+cout << CHAR_MAX << " " << CHAR_MIN << endl; //  #include <climits>
+
+```
 ## Tutorial currently following
 
 - Learn C++ Programming -Beginner to Advance- Deep Dive in C++<br>
