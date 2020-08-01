@@ -65,6 +65,36 @@ double someVar = 25.5; // by default it's double
 char section = 65;
 ```
 
+## string literals
+```
+string name = "Utshaw"; // string literals
+```
+
+## enum
+```
+enum day {
+    mon=1, // 1
+    tue,  // 2
+    wed,  // 3
+    thu=10, // 10
+    fri,   // 11
+    sat,  // 12
+    sun   // 13
+};
+day d;
+d = tue;
+d = fri;
+cout << d << endl;
+```
+## typedef
+```
+typedef int marks;
+marks m1, m2 ;
+m1 = 10;
+m2 = 2;
+```
+
+
 ## Tutorial currently following
 
 - Learn C++ Programming -Beginner to Advance- Deep Dive in C++<br>
