@@ -93,7 +93,15 @@ marks m1, m2 ;
 m1 = 10;
 m2 = 2;
 ```
+# Looping
+## For loop
+```
+int arr[] = {1, 2, 3, 4, 5, 6};
+for(int element: arr) {
+    cout << element << endl;
+}
 
+```
 
 ## Tutorial currently following
 
